@@ -37,14 +37,14 @@ const TodoItem = () => {
   return (
     <div className="todo-item">
       <div className="container">
-        <div className="todo-item__list">
+        <div className="todo-item--list">
           {products.map((el) => (
             <div className="todo-item__block" key={el._id}>
               <img src={el.image} alt={el.name} />
-              <div className="todo-item__block__items">
+              <div className="todo-item__block--items">
                 <h3>{el.name}</h3>
                 <h4>{el.price} сом</h4>
-                <div className="todo-item__block__actions">
+                <div className="todo-item__block--actions">
                   <button onClick={() => deleteProduct(el._id)}>Удалить</button>
                 </div>
               </div>

@@ -1,7 +1,7 @@
 .todo-item {
   padding: 20px 0;
 
-  &__list {
+  &--list {
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -19,7 +19,7 @@
     margin: 0 auto 16px;
     align-items: center;
 
-    &__items {
+    &--items {
       display: flex;
       align-items: center;
       flex-direction: column;
@@ -45,7 +45,7 @@
       font-size: 16px;
     }
 
-    &__actions {
+    &--actions {
       button {
         align-self: flex-start;
         padding: 8px 16px;
