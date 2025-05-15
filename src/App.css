@@ -1,0 +1,3 @@
+@import "./Components/Header/Header.scss";
+@import "./Components/TodoInput.scss";
+@import "./Components/TodoItem.scss";
