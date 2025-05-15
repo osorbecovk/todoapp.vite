@@ -2,7 +2,7 @@ import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import TodoInput from "./Components/TodoInput";
 import TodoItem from "./Components/TodoItem";
-import Header from "./Components/Header/HEader";
+import Header from "./Components/Header/Header";
 
 function App() {
   const routes = [
